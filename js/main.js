@@ -13,7 +13,6 @@ let miliseconds = 0;
 const startTimer = () => {
     miliseconds++;
 
-
     if (miliseconds <= 99) {
         hunderdthsSecondBlock.innerHTML = miliseconds;
 
@@ -23,7 +22,6 @@ const startTimer = () => {
         hunderdthsSecondBlock.innerHTML = '00';
 
     }
-
 
     if (miliseconds > 99) {
         seconds++;
@@ -43,8 +41,6 @@ const startTimer = () => {
         minutesBlock.innerHTML = minutes;
     }
 }
-
-
 
 btnStart.addEventListener('click', () => {
     clearInterval(interval);
