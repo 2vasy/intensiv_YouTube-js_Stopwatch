@@ -14,16 +14,15 @@ const startTimer = () => {
     miliseconds++;
 
 
-    if(miliseconds <= 99) {
+    if (miliseconds <= 99) {
         hunderdthsSecondBlock.innerHTML = miliseconds;
 
     }
 
-    if(miliseconds == 100) {
+    if (miliseconds == 100) {
         hunderdthsSecondBlock.innerHTML = '00';
 
     }
-
 
 
     if (miliseconds > 99) {
@@ -63,7 +62,7 @@ btnReset.addEventListener('click', () => {
     minutesBlock.innerHTML = '00';
     secondsBlock.innerHTML = '00';
     hunderdthsSecondBlock.innerHTML = '00';
-    
+
 });
 
 
